@@ -2,7 +2,7 @@
     "version": 3,
     "deployment": {
         "manifest": {
-            "time": "2022-05-03T13:57:52.857669555Z",
+            "time": "2022-05-03T13:58:57.731399471Z",
             "magic": "98ae22862396c1d773e2e3229890b29e18f6cef82e096ee17749956f3e03e3a6",
             "version": "v3.31.0"
         },
@@ -35,34 +35,6 @@
                 "sequenceNumber": 1
             },
             {
-                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::membership-for-heypoom",
-                "custom": true,
-                "id": "6011674:heypoom",
-                "type": "github:index/teamMembership:TeamMembership",
-                "inputs": {
-                    "__defaults": [
-                        "role"
-                    ],
-                    "role": "member",
-                    "teamId": "6011674",
-                    "username": "heypoom"
-                },
-                "outputs": {
-                    "etag": "W/\"3ff561f50d0d7146e7574856b6e696bf054c1e015529a0b6d433e986cf77a2b7\"",
-                    "id": "6011674:heypoom",
-                    "role": "maintainer",
-                    "teamId": "6011674",
-                    "username": "heypoom"
-                },
-                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
-                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_11_0::21a3f24e-10d8-4d32-bb50-df8efcfe002b",
-                "propertyDependencies": {
-                    "teamId": null,
-                    "username": null
-                },
-                "sequenceNumber": 1
-            },
-            {
                 "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::membership-for-pankace",
                 "custom": true,
                 "id": "6011674:pankace",
@@ -76,11 +48,39 @@
                     "username": "pankace"
                 },
                 "outputs": {
-                    "etag": "W/\"23f082d04c1b76c774cd2ecaec97a8df0b24ed71cfdaba76c32698e9a250ad14\"",
+                    "etag": "W/\"69de488abada21c20b5fb220c2b145c4473f0fa784a4257e11d1679b3f5b97c6\"",
                     "id": "6011674:pankace",
                     "role": "maintainer",
                     "teamId": "6011674",
                     "username": "pankace"
+                },
+                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
+                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_11_0::21a3f24e-10d8-4d32-bb50-df8efcfe002b",
+                "propertyDependencies": {
+                    "teamId": null,
+                    "username": null
+                },
+                "sequenceNumber": 1
+            },
+            {
+                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::membership-for-heypoom",
+                "custom": true,
+                "id": "6011674:heypoom",
+                "type": "github:index/teamMembership:TeamMembership",
+                "inputs": {
+                    "__defaults": [
+                        "role"
+                    ],
+                    "role": "member",
+                    "teamId": "6011674",
+                    "username": "heypoom"
+                },
+                "outputs": {
+                    "etag": "W/\"0b4825df972698f0ace706408cfd594b050b1d15312916cb7fc92cd4842c7491\"",
+                    "id": "6011674:heypoom",
+                    "role": "maintainer",
+                    "teamId": "6011674",
+                    "username": "heypoom"
                 },
                 "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
                 "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_11_0::21a3f24e-10d8-4d32-bb50-df8efcfe002b",
