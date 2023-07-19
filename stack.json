@@ -2,9 +2,9 @@
     "version": 3,
     "deployment": {
         "manifest": {
-            "time": "2023-06-18T23:42:37.631156367Z",
-            "magic": "1fce246d436c6e46d168db13ed1014131c96be0ccf8401639052718fba57ac37",
-            "version": "v3.72.2"
+            "time": "2023-07-19T11:12:33.763743117Z",
+            "magic": "2c2c9583d90766d028e819f886c2dc488eb9dd4d6b1caf826993f4ba26a98dc5",
+            "version": "v3.75.0"
         },
         "secrets_providers": {
             "type": "passphrase",
@@ -35,6 +35,256 @@
                 "modified": "2023-06-18T23:42:18.528592358Z"
             },
             {
+                "urn": "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-vod",
+                "custom": true,
+                "id": "6884937",
+                "type": "github:index/team:Team",
+                "inputs": {
+                    "__defaults": [
+                        "createDefaultMaintainer"
+                    ],
+                    "createDefaultMaintainer": false,
+                    "description": "Videos on demand team",
+                    "name": "VOD team",
+                    "privacy": "closed"
+                },
+                "outputs": {
+                    "createDefaultMaintainer": false,
+                    "description": "Videos on demand team",
+                    "etag": "W/\"03a7bac319dc5e9087dd54ec293d9b7ed15fa82efd2fcf38514989129c4723f9\"",
+                    "id": "6884937",
+                    "ldapDn": "",
+                    "membersCount": 0,
+                    "name": "VOD team",
+                    "nodeId": "T_kwDOBj-h3c4AaQ5J",
+                    "privacy": "closed",
+                    "slug": "vod-team"
+                },
+                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
+                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
+                "propertyDependencies": {
+                    "description": null,
+                    "name": null,
+                    "privacy": null
+                }
+            },
+            {
+                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::membership-for-1tpp",
+                "custom": true,
+                "id": "6011674:1tpp",
+                "type": "github:index/teamMembership:TeamMembership",
+                "inputs": {
+                    "__defaults": [
+                        "role"
+                    ],
+                    "role": "member",
+                    "teamId": "6011674",
+                    "username": "1tpp"
+                },
+                "outputs": {
+                    "etag": "W/\"35fd6394a92e4dc5644ed98a0abe32b77db7e198153a21231cecc440f1b74f4b\"",
+                    "id": "6011674:1tpp",
+                    "role": "member",
+                    "teamId": "6011674",
+                    "username": "1tpp"
+                },
+                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
+                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
+                "propertyDependencies": {
+                    "teamId": null,
+                    "username": null
+                }
+            },
+            {
+                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::membership-for-badgooooor",
+                "custom": true,
+                "id": "6011674:badgooooor",
+                "type": "github:index/teamMembership:TeamMembership",
+                "inputs": {
+                    "__defaults": [
+                        "role"
+                    ],
+                    "role": "member",
+                    "teamId": "6011674",
+                    "username": "badgooooor"
+                },
+                "outputs": {
+                    "etag": "W/\"56df4d274a40d146daa758aa0fd9ee4d6636c76f05a2e386630d6e4e7936055b\"",
+                    "id": "6011674:badgooooor",
+                    "role": "member",
+                    "teamId": "6011674",
+                    "username": "badgooooor"
+                },
+                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
+                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
+                "propertyDependencies": {
+                    "teamId": null,
+                    "username": null
+                }
+            },
+            {
+                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::membership-for-balabeltmimi",
+                "custom": true,
+                "id": "6011674:balabeltmimi",
+                "type": "github:index/teamMembership:TeamMembership",
+                "inputs": {
+                    "__defaults": [
+                        "role"
+                    ],
+                    "role": "member",
+                    "teamId": "6011674",
+                    "username": "balabeltmimi"
+                },
+                "outputs": {
+                    "etag": "W/\"d3dda2e8e5858d3393f9e602c8fcfa947fa1e9a3846b513d908e36710ccf9542\"",
+                    "id": "6011674:balabeltmimi",
+                    "role": "member",
+                    "teamId": "6011674",
+                    "username": "balabeltmimi"
+                },
+                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
+                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
+                "propertyDependencies": {
+                    "teamId": null,
+                    "username": null
+                }
+            },
+            {
+                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::membership-for-betich",
+                "custom": true,
+                "id": "6011674:betich",
+                "type": "github:index/teamMembership:TeamMembership",
+                "inputs": {
+                    "__defaults": [
+                        "role"
+                    ],
+                    "role": "member",
+                    "teamId": "6011674",
+                    "username": "betich"
+                },
+                "outputs": {
+                    "etag": "W/\"c42772be90638f572233265e13044ec3d0f740584cca590041db08916880ce6b\"",
+                    "id": "6011674:betich",
+                    "role": "member",
+                    "teamId": "6011674",
+                    "username": "betich"
+                },
+                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
+                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
+                "propertyDependencies": {
+                    "teamId": null,
+                    "username": null
+                }
+            },
+            {
+                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::membership-for-C0M3TZZ",
+                "custom": true,
+                "id": "6011674:C0M3TZZ",
+                "type": "github:index/teamMembership:TeamMembership",
+                "inputs": {
+                    "__defaults": [
+                        "role"
+                    ],
+                    "role": "member",
+                    "teamId": "6011674",
+                    "username": "C0M3TZZ"
+                },
+                "outputs": {
+                    "etag": "W/\"d2be1adac967a1144ff819a1d2e5a6124c5670312074d376c1f1873fc45fc55b\"",
+                    "id": "6011674:C0M3TZZ",
+                    "role": "member",
+                    "teamId": "6011674",
+                    "username": "C0M3TZZ"
+                },
+                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
+                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
+                "propertyDependencies": {
+                    "teamId": null,
+                    "username": null
+                }
+            },
+            {
+                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::membership-for-chayapatr",
+                "custom": true,
+                "id": "6011674:chayapatr",
+                "type": "github:index/teamMembership:TeamMembership",
+                "inputs": {
+                    "__defaults": [
+                        "role"
+                    ],
+                    "role": "member",
+                    "teamId": "6011674",
+                    "username": "chayapatr"
+                },
+                "outputs": {
+                    "etag": "W/\"4e66e526982cbe0a7909a1113d0c3881072064bf0208b49069862dd56505a07e\"",
+                    "id": "6011674:chayapatr",
+                    "role": "member",
+                    "teamId": "6011674",
+                    "username": "chayapatr"
+                },
+                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
+                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
+                "propertyDependencies": {
+                    "teamId": null,
+                    "username": null
+                }
+            },
+            {
+                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::membership-for-DEmayonnaise",
+                "custom": true,
+                "id": "6011674:DEmayonnaise",
+                "type": "github:index/teamMembership:TeamMembership",
+                "inputs": {
+                    "__defaults": [
+                        "role"
+                    ],
+                    "role": "member",
+                    "teamId": "6011674",
+                    "username": "DEmayonnaise"
+                },
+                "outputs": {
+                    "etag": "W/\"2f8e04bf2a4521960f8471cb690e9a35026144e4e26cbc53737236ec80118b08\"",
+                    "id": "6011674:DEmayonnaise",
+                    "role": "member",
+                    "teamId": "6011674",
+                    "username": "DEmayonnaise"
+                },
+                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
+                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
+                "propertyDependencies": {
+                    "teamId": null,
+                    "username": null
+                }
+            },
+            {
+                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::membership-for-DrowningToast",
+                "custom": true,
+                "id": "6011674:DrowningToast",
+                "type": "github:index/teamMembership:TeamMembership",
+                "inputs": {
+                    "__defaults": [
+                        "role"
+                    ],
+                    "role": "member",
+                    "teamId": "6011674",
+                    "username": "DrowningToast"
+                },
+                "outputs": {
+                    "etag": "W/\"afe02e456dfc503a6a6062d1f14f77f9f71a0df8b691aeb61a6df5f16ee346cb\"",
+                    "id": "6011674:DrowningToast",
+                    "role": "member",
+                    "teamId": "6011674",
+                    "username": "DrowningToast"
+                },
+                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
+                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
+                "propertyDependencies": {
+                    "teamId": null,
+                    "username": null
+                }
+            },
+            {
                 "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::membership-for-dtinth-bot",
                 "custom": true,
                 "id": "6011674:dtinth-bot",
@@ -60,35 +310,6 @@
                     "teamId": null,
                     "username": null
                 }
-            },
-            {
-                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::membership-for-Thunyatorn",
-                "custom": true,
-                "id": "6011674:Thunyatorn",
-                "type": "github:index/teamMembership:TeamMembership",
-                "inputs": {
-                    "__defaults": [
-                        "role"
-                    ],
-                    "role": "member",
-                    "teamId": "6011674",
-                    "username": "Thunyatorn"
-                },
-                "outputs": {
-                    "etag": "W/\"00a94ba2609233b790a2db146e09fa4e0dc56bc2f1f2ba3f4db8fd9226c31e8d\"",
-                    "id": "6011674:Thunyatorn",
-                    "role": "member",
-                    "teamId": "6011674",
-                    "username": "Thunyatorn"
-                },
-                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
-                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
-                "propertyDependencies": {
-                    "teamId": null,
-                    "username": null
-                },
-                "created": "2023-05-03T20:28:00.880181069Z",
-                "modified": "2023-05-03T20:28:00.880181069Z"
             },
             {
                 "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::membership-for-FloatKasemtan",
@@ -356,6 +577,33 @@
                     "role": "member",
                     "teamId": "6011674",
                     "username": "Leomotors"
+                },
+                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
+                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
+                "propertyDependencies": {
+                    "teamId": null,
+                    "username": null
+                }
+            },
+            {
+                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::membership-for-lebrancconvas",
+                "custom": true,
+                "id": "6011674:lebrancconvas",
+                "type": "github:index/teamMembership:TeamMembership",
+                "inputs": {
+                    "__defaults": [
+                        "role"
+                    ],
+                    "role": "member",
+                    "teamId": "6011674",
+                    "username": "lebrancconvas"
+                },
+                "outputs": {
+                    "etag": "W/\"f2357503db22ed5cd3e502dcef3e77ddcd2e7246ba613b35d0622966d50a3415\"",
+                    "id": "6011674:lebrancconvas",
+                    "role": "member",
+                    "teamId": "6011674",
+                    "username": "lebrancconvas"
                 },
                 "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
                 "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
@@ -720,9 +968,9 @@
                 "modified": "2023-05-11T15:24:28.460438179Z"
             },
             {
-                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::membership-for-varkaria",
+                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::membership-for-saltyaom-engine",
                 "custom": true,
-                "id": "6011674:varkaria",
+                "id": "6011674:saltyaom-engine",
                 "type": "github:index/teamMembership:TeamMembership",
                 "inputs": {
                     "__defaults": [
@@ -730,14 +978,43 @@
                     ],
                     "role": "member",
                     "teamId": "6011674",
-                    "username": "varkaria"
+                    "username": "saltyaom-engine"
                 },
                 "outputs": {
-                    "etag": "W/\"da4d33dd7d4dc94bc36048fdd6e6b835277afcecd996bc5129d1d03095ebf86a\"",
-                    "id": "6011674:varkaria",
+                    "etag": "W/\"2365664c6275f07de42053e20a2c9fd69de4e75c71cc92d785141a6222f33437\"",
+                    "id": "6011674:saltyaom-engine",
                     "role": "member",
                     "teamId": "6011674",
-                    "username": "varkaria"
+                    "username": "saltyaom-engine"
+                },
+                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
+                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
+                "propertyDependencies": {
+                    "teamId": null,
+                    "username": null
+                },
+                "created": "2023-05-30T10:08:35.280778532Z",
+                "modified": "2023-05-30T10:08:35.280778532Z"
+            },
+            {
+                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::membership-for-siravijbb",
+                "custom": true,
+                "id": "6011674:siravijbb",
+                "type": "github:index/teamMembership:TeamMembership",
+                "inputs": {
+                    "__defaults": [
+                        "role"
+                    ],
+                    "role": "member",
+                    "teamId": "6011674",
+                    "username": "siravijbb"
+                },
+                "outputs": {
+                    "etag": "W/\"a3d40fb8beb56b3cbb0123a0d6bf2cd9ff6b59d068e09d4f38113fead9eed32c\"",
+                    "id": "6011674:siravijbb",
+                    "role": "member",
+                    "teamId": "6011674",
+                    "username": "siravijbb"
                 },
                 "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
                 "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
@@ -745,6 +1022,143 @@
                     "teamId": null,
                     "username": null
                 }
+            },
+            {
+                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::membership-for-sleepntsheep",
+                "custom": true,
+                "id": "6011674:sleepntsheep",
+                "type": "github:index/teamMembership:TeamMembership",
+                "inputs": {
+                    "__defaults": [
+                        "role"
+                    ],
+                    "role": "member",
+                    "teamId": "6011674",
+                    "username": "sleepntsheep"
+                },
+                "outputs": {
+                    "etag": "W/\"1e6b0e39f3a0786b713929a416ba9d28e7e1d5e668a79a74237072376f730183\"",
+                    "id": "6011674:sleepntsheep",
+                    "role": "member",
+                    "teamId": "6011674",
+                    "username": "sleepntsheep"
+                },
+                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
+                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
+                "propertyDependencies": {
+                    "teamId": null,
+                    "username": null
+                }
+            },
+            {
+                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::membership-for-tao-Isaman",
+                "custom": true,
+                "id": "6011674:tao-Isaman",
+                "type": "github:index/teamMembership:TeamMembership",
+                "inputs": {
+                    "__defaults": [
+                        "role"
+                    ],
+                    "role": "member",
+                    "teamId": "6011674",
+                    "username": "tao-Isaman"
+                },
+                "outputs": {
+                    "etag": "W/\"0db21c0ba7b1ab8295a8df6960877b7301f76c8e109c6c95543e433705b7ba96\"",
+                    "id": "6011674:tao-Isaman",
+                    "role": "member",
+                    "teamId": "6011674",
+                    "username": "tao-Isaman"
+                },
+                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
+                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
+                "propertyDependencies": {
+                    "teamId": null,
+                    "username": null
+                }
+            },
+            {
+                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::membership-for-tententgc",
+                "custom": true,
+                "id": "6011674:tententgc",
+                "type": "github:index/teamMembership:TeamMembership",
+                "inputs": {
+                    "__defaults": [
+                        "role"
+                    ],
+                    "role": "member",
+                    "teamId": "6011674",
+                    "username": "tententgc"
+                },
+                "outputs": {
+                    "etag": "W/\"073f8c1772352e21eb6798d7c7b8b7b26cdeff3c2c4d74099d161d1ea14b8a7a\"",
+                    "id": "6011674:tententgc",
+                    "role": "member",
+                    "teamId": "6011674",
+                    "username": "tententgc"
+                },
+                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
+                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
+                "propertyDependencies": {
+                    "teamId": null,
+                    "username": null
+                }
+            },
+            {
+                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::membership-for-thitiwat-t",
+                "custom": true,
+                "id": "6011674:thitiwat-t",
+                "type": "github:index/teamMembership:TeamMembership",
+                "inputs": {
+                    "__defaults": [
+                        "role"
+                    ],
+                    "role": "member",
+                    "teamId": "6011674",
+                    "username": "thitiwat-t"
+                },
+                "outputs": {
+                    "etag": "W/\"aaa53ed8dff8b3b4ea7f988dc292a7e5f7282fd19d7c5e205d2638ce7a7a69a6\"",
+                    "id": "6011674:thitiwat-t",
+                    "role": "member",
+                    "teamId": "6011674",
+                    "username": "thitiwat-t"
+                },
+                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
+                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
+                "propertyDependencies": {
+                    "teamId": null,
+                    "username": null
+                }
+            },
+            {
+                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::membership-for-Thunyatorn",
+                "custom": true,
+                "id": "6011674:Thunyatorn",
+                "type": "github:index/teamMembership:TeamMembership",
+                "inputs": {
+                    "__defaults": [
+                        "role"
+                    ],
+                    "role": "member",
+                    "teamId": "6011674",
+                    "username": "Thunyatorn"
+                },
+                "outputs": {
+                    "etag": "W/\"00a94ba2609233b790a2db146e09fa4e0dc56bc2f1f2ba3f4db8fd9226c31e8d\"",
+                    "id": "6011674:Thunyatorn",
+                    "role": "member",
+                    "teamId": "6011674",
+                    "username": "Thunyatorn"
+                },
+                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
+                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
+                "propertyDependencies": {
+                    "teamId": null,
+                    "username": null
+                },
+                "created": "2023-05-03T20:28:00.880181069Z",
+                "modified": "2023-05-03T20:28:00.880181069Z"
             },
             {
                 "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::membership-for-tinarskii",
@@ -765,6 +1179,33 @@
                     "role": "member",
                     "teamId": "6011674",
                     "username": "tinarskii"
+                },
+                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
+                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
+                "propertyDependencies": {
+                    "teamId": null,
+                    "username": null
+                }
+            },
+            {
+                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::membership-for-varkaria",
+                "custom": true,
+                "id": "6011674:varkaria",
+                "type": "github:index/teamMembership:TeamMembership",
+                "inputs": {
+                    "__defaults": [
+                        "role"
+                    ],
+                    "role": "member",
+                    "teamId": "6011674",
+                    "username": "varkaria"
+                },
+                "outputs": {
+                    "etag": "W/\"da4d33dd7d4dc94bc36048fdd6e6b835277afcecd996bc5129d1d03095ebf86a\"",
+                    "id": "6011674:varkaria",
+                    "role": "member",
+                    "teamId": "6011674",
+                    "username": "varkaria"
                 },
                 "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
                 "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
@@ -830,35 +1271,6 @@
                 "modified": "2023-05-18T07:43:08.184440075Z"
             },
             {
-                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::membership-for-saltyaom-engine",
-                "custom": true,
-                "id": "6011674:saltyaom-engine",
-                "type": "github:index/teamMembership:TeamMembership",
-                "inputs": {
-                    "__defaults": [
-                        "role"
-                    ],
-                    "role": "member",
-                    "teamId": "6011674",
-                    "username": "saltyaom-engine"
-                },
-                "outputs": {
-                    "etag": "W/\"2365664c6275f07de42053e20a2c9fd69de4e75c71cc92d785141a6222f33437\"",
-                    "id": "6011674:saltyaom-engine",
-                    "role": "member",
-                    "teamId": "6011674",
-                    "username": "saltyaom-engine"
-                },
-                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
-                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
-                "propertyDependencies": {
-                    "teamId": null,
-                    "username": null
-                },
-                "created": "2023-05-30T10:08:35.280778532Z",
-                "modified": "2023-05-30T10:08:35.280778532Z"
-            },
-            {
                 "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::membership-for-wit03",
                 "custom": true,
                 "id": "6011674:wit03",
@@ -886,33 +1298,6 @@
                 },
                 "created": "2023-05-30T06:11:23.415007183Z",
                 "modified": "2023-05-30T06:11:23.415007183Z"
-            },
-            {
-                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::membership-for-siravijbb",
-                "custom": true,
-                "id": "6011674:siravijbb",
-                "type": "github:index/teamMembership:TeamMembership",
-                "inputs": {
-                    "__defaults": [
-                        "role"
-                    ],
-                    "role": "member",
-                    "teamId": "6011674",
-                    "username": "siravijbb"
-                },
-                "outputs": {
-                    "etag": "W/\"a3d40fb8beb56b3cbb0123a0d6bf2cd9ff6b59d068e09d4f38113fead9eed32c\"",
-                    "id": "6011674:siravijbb",
-                    "role": "member",
-                    "teamId": "6011674",
-                    "username": "siravijbb"
-                },
-                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
-                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
-                "propertyDependencies": {
-                    "teamId": null,
-                    "username": null
-                }
             },
             {
                 "urn": "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-website",
@@ -946,33 +1331,6 @@
                     "description": null,
                     "name": null,
                     "privacy": null
-                }
-            },
-            {
-                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::membership-for-sleepntsheep",
-                "custom": true,
-                "id": "6011674:sleepntsheep",
-                "type": "github:index/teamMembership:TeamMembership",
-                "inputs": {
-                    "__defaults": [
-                        "role"
-                    ],
-                    "role": "member",
-                    "teamId": "6011674",
-                    "username": "sleepntsheep"
-                },
-                "outputs": {
-                    "etag": "W/\"1e6b0e39f3a0786b713929a416ba9d28e7e1d5e668a79a74237072376f730183\"",
-                    "id": "6011674:sleepntsheep",
-                    "role": "member",
-                    "teamId": "6011674",
-                    "username": "sleepntsheep"
-                },
-                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
-                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
-                "propertyDependencies": {
-                    "teamId": null,
-                    "username": null
                 }
             },
             {
@@ -1010,33 +1368,6 @@
                 }
             },
             {
-                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::membership-for-tao-Isaman",
-                "custom": true,
-                "id": "6011674:tao-Isaman",
-                "type": "github:index/teamMembership:TeamMembership",
-                "inputs": {
-                    "__defaults": [
-                        "role"
-                    ],
-                    "role": "member",
-                    "teamId": "6011674",
-                    "username": "tao-Isaman"
-                },
-                "outputs": {
-                    "etag": "W/\"0db21c0ba7b1ab8295a8df6960877b7301f76c8e109c6c95543e433705b7ba96\"",
-                    "id": "6011674:tao-Isaman",
-                    "role": "member",
-                    "teamId": "6011674",
-                    "username": "tao-Isaman"
-                },
-                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
-                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
-                "propertyDependencies": {
-                    "teamId": null,
-                    "username": null
-                }
-            },
-            {
                 "urn": "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-hacktoberfestmuseum",
                 "custom": true,
                 "id": "6846494",
@@ -1068,121 +1399,6 @@
                     "description": null,
                     "name": null,
                     "privacy": null
-                }
-            },
-            {
-                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::membership-for-tententgc",
-                "custom": true,
-                "id": "6011674:tententgc",
-                "type": "github:index/teamMembership:TeamMembership",
-                "inputs": {
-                    "__defaults": [
-                        "role"
-                    ],
-                    "role": "member",
-                    "teamId": "6011674",
-                    "username": "tententgc"
-                },
-                "outputs": {
-                    "etag": "W/\"073f8c1772352e21eb6798d7c7b8b7b26cdeff3c2c4d74099d161d1ea14b8a7a\"",
-                    "id": "6011674:tententgc",
-                    "role": "member",
-                    "teamId": "6011674",
-                    "username": "tententgc"
-                },
-                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
-                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
-                "propertyDependencies": {
-                    "teamId": null,
-                    "username": null
-                }
-            },
-            {
-                "urn": "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-vod",
-                "custom": true,
-                "id": "6884937",
-                "type": "github:index/team:Team",
-                "inputs": {
-                    "__defaults": [
-                        "createDefaultMaintainer"
-                    ],
-                    "createDefaultMaintainer": false,
-                    "description": "Videos on demand team",
-                    "name": "VOD team",
-                    "privacy": "closed"
-                },
-                "outputs": {
-                    "createDefaultMaintainer": false,
-                    "description": "Videos on demand team",
-                    "etag": "W/\"03a7bac319dc5e9087dd54ec293d9b7ed15fa82efd2fcf38514989129c4723f9\"",
-                    "id": "6884937",
-                    "ldapDn": "",
-                    "membersCount": 0,
-                    "name": "VOD team",
-                    "nodeId": "T_kwDOBj-h3c4AaQ5J",
-                    "privacy": "closed",
-                    "slug": "vod-team"
-                },
-                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
-                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
-                "propertyDependencies": {
-                    "description": null,
-                    "name": null,
-                    "privacy": null
-                }
-            },
-            {
-                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::membership-for-thitiwat-t",
-                "custom": true,
-                "id": "6011674:thitiwat-t",
-                "type": "github:index/teamMembership:TeamMembership",
-                "inputs": {
-                    "__defaults": [
-                        "role"
-                    ],
-                    "role": "member",
-                    "teamId": "6011674",
-                    "username": "thitiwat-t"
-                },
-                "outputs": {
-                    "etag": "W/\"aaa53ed8dff8b3b4ea7f988dc292a7e5f7282fd19d7c5e205d2638ce7a7a69a6\"",
-                    "id": "6011674:thitiwat-t",
-                    "role": "member",
-                    "teamId": "6011674",
-                    "username": "thitiwat-t"
-                },
-                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
-                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
-                "propertyDependencies": {
-                    "teamId": null,
-                    "username": null
-                }
-            },
-            {
-                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::membership-for-balabeltmimi",
-                "custom": true,
-                "id": "6011674:balabeltmimi",
-                "type": "github:index/teamMembership:TeamMembership",
-                "inputs": {
-                    "__defaults": [
-                        "role"
-                    ],
-                    "role": "member",
-                    "teamId": "6011674",
-                    "username": "balabeltmimi"
-                },
-                "outputs": {
-                    "etag": "W/\"d3dda2e8e5858d3393f9e602c8fcfa947fa1e9a3846b513d908e36710ccf9542\"",
-                    "id": "6011674:balabeltmimi",
-                    "role": "member",
-                    "teamId": "6011674",
-                    "username": "balabeltmimi"
-                },
-                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
-                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
-                "propertyDependencies": {
-                    "teamId": null,
-                    "username": null
                 }
             },
             {
@@ -1258,218 +1474,65 @@
                 "modified": "2023-05-20T09:51:58.940433679Z"
             },
             {
-                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::membership-for-1tpp",
+                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamRepository:TeamRepository::team-vod-repo-videos",
                 "custom": true,
-                "id": "6011674:1tpp",
-                "type": "github:index/teamMembership:TeamMembership",
+                "id": "6884937:videos",
+                "type": "github:index/teamRepository:TeamRepository",
                 "inputs": {
-                    "__defaults": [
-                        "role"
-                    ],
-                    "role": "member",
-                    "teamId": "6011674",
-                    "username": "1tpp"
+                    "__defaults": [],
+                    "permission": "push",
+                    "repository": "videos",
+                    "teamId": "6884937"
                 },
                 "outputs": {
-                    "etag": "W/\"35fd6394a92e4dc5644ed98a0abe32b77db7e198153a21231cecc440f1b74f4b\"",
-                    "id": "6011674:1tpp",
-                    "role": "member",
-                    "teamId": "6011674",
-                    "username": "1tpp"
+                    "etag": "W/\"6433d0fe73b90ab603384438884a83b605fb5e5feba5977d9b6f25ca5a09307d\"",
+                    "id": "6884937:videos",
+                    "permission": "push",
+                    "repository": "videos",
+                    "teamId": "6884937"
                 },
                 "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
+                "dependencies": [
+                    "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-vod"
+                ],
                 "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
                 "propertyDependencies": {
-                    "teamId": null,
-                    "username": null
+                    "permission": null,
+                    "repository": null,
+                    "teamId": [
+                        "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-vod"
+                    ]
                 }
             },
             {
-                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::membership-for-badgooooor",
+                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::team-vod-membership-for-wiput1999",
                 "custom": true,
-                "id": "6011674:badgooooor",
+                "id": "6884937:wiput1999",
                 "type": "github:index/teamMembership:TeamMembership",
                 "inputs": {
                     "__defaults": [
                         "role"
                     ],
                     "role": "member",
-                    "teamId": "6011674",
-                    "username": "badgooooor"
+                    "teamId": "6884937",
+                    "username": "wiput1999"
                 },
                 "outputs": {
-                    "etag": "W/\"56df4d274a40d146daa758aa0fd9ee4d6636c76f05a2e386630d6e4e7936055b\"",
-                    "id": "6011674:badgooooor",
+                    "etag": "W/\"25624e64c9e0e02343a99aa937da048192e439fae45b0509c2b3ca1652fd014c\"",
+                    "id": "6884937:wiput1999",
                     "role": "member",
-                    "teamId": "6011674",
-                    "username": "badgooooor"
+                    "teamId": "6884937",
+                    "username": "wiput1999"
                 },
                 "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
+                "dependencies": [
+                    "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-vod"
+                ],
                 "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
                 "propertyDependencies": {
-                    "teamId": null,
-                    "username": null
-                }
-            },
-            {
-                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::membership-for-chayapatr",
-                "custom": true,
-                "id": "6011674:chayapatr",
-                "type": "github:index/teamMembership:TeamMembership",
-                "inputs": {
-                    "__defaults": [
-                        "role"
+                    "teamId": [
+                        "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-vod"
                     ],
-                    "role": "member",
-                    "teamId": "6011674",
-                    "username": "chayapatr"
-                },
-                "outputs": {
-                    "etag": "W/\"4e66e526982cbe0a7909a1113d0c3881072064bf0208b49069862dd56505a07e\"",
-                    "id": "6011674:chayapatr",
-                    "role": "member",
-                    "teamId": "6011674",
-                    "username": "chayapatr"
-                },
-                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
-                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
-                "propertyDependencies": {
-                    "teamId": null,
-                    "username": null
-                }
-            },
-            {
-                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::membership-for-betich",
-                "custom": true,
-                "id": "6011674:betich",
-                "type": "github:index/teamMembership:TeamMembership",
-                "inputs": {
-                    "__defaults": [
-                        "role"
-                    ],
-                    "role": "member",
-                    "teamId": "6011674",
-                    "username": "betich"
-                },
-                "outputs": {
-                    "etag": "W/\"c42772be90638f572233265e13044ec3d0f740584cca590041db08916880ce6b\"",
-                    "id": "6011674:betich",
-                    "role": "member",
-                    "teamId": "6011674",
-                    "username": "betich"
-                },
-                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
-                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
-                "propertyDependencies": {
-                    "teamId": null,
-                    "username": null
-                }
-            },
-            {
-                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::membership-for-C0M3TZZ",
-                "custom": true,
-                "id": "6011674:C0M3TZZ",
-                "type": "github:index/teamMembership:TeamMembership",
-                "inputs": {
-                    "__defaults": [
-                        "role"
-                    ],
-                    "role": "member",
-                    "teamId": "6011674",
-                    "username": "C0M3TZZ"
-                },
-                "outputs": {
-                    "etag": "W/\"d2be1adac967a1144ff819a1d2e5a6124c5670312074d376c1f1873fc45fc55b\"",
-                    "id": "6011674:C0M3TZZ",
-                    "role": "member",
-                    "teamId": "6011674",
-                    "username": "C0M3TZZ"
-                },
-                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
-                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
-                "propertyDependencies": {
-                    "teamId": null,
-                    "username": null
-                }
-            },
-            {
-                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::membership-for-DrowningToast",
-                "custom": true,
-                "id": "6011674:DrowningToast",
-                "type": "github:index/teamMembership:TeamMembership",
-                "inputs": {
-                    "__defaults": [
-                        "role"
-                    ],
-                    "role": "member",
-                    "teamId": "6011674",
-                    "username": "DrowningToast"
-                },
-                "outputs": {
-                    "etag": "W/\"afe02e456dfc503a6a6062d1f14f77f9f71a0df8b691aeb61a6df5f16ee346cb\"",
-                    "id": "6011674:DrowningToast",
-                    "role": "member",
-                    "teamId": "6011674",
-                    "username": "DrowningToast"
-                },
-                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
-                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
-                "propertyDependencies": {
-                    "teamId": null,
-                    "username": null
-                }
-            },
-            {
-                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::membership-for-DEmayonnaise",
-                "custom": true,
-                "id": "6011674:DEmayonnaise",
-                "type": "github:index/teamMembership:TeamMembership",
-                "inputs": {
-                    "__defaults": [
-                        "role"
-                    ],
-                    "role": "member",
-                    "teamId": "6011674",
-                    "username": "DEmayonnaise"
-                },
-                "outputs": {
-                    "etag": "W/\"2f8e04bf2a4521960f8471cb690e9a35026144e4e26cbc53737236ec80118b08\"",
-                    "id": "6011674:DEmayonnaise",
-                    "role": "member",
-                    "teamId": "6011674",
-                    "username": "DEmayonnaise"
-                },
-                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
-                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
-                "propertyDependencies": {
-                    "teamId": null,
-                    "username": null
-                }
-            },
-            {
-                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::membership-for-lebrancconvas",
-                "custom": true,
-                "id": "6011674:lebrancconvas",
-                "type": "github:index/teamMembership:TeamMembership",
-                "inputs": {
-                    "__defaults": [
-                        "role"
-                    ],
-                    "role": "member",
-                    "teamId": "6011674",
-                    "username": "lebrancconvas"
-                },
-                "outputs": {
-                    "etag": "W/\"f2357503db22ed5cd3e502dcef3e77ddcd2e7246ba613b35d0622966d50a3415\"",
-                    "id": "6011674:lebrancconvas",
-                    "role": "member",
-                    "teamId": "6011674",
-                    "username": "lebrancconvas"
-                },
-                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
-                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
-                "propertyDependencies": {
-                    "teamId": null,
                     "username": null
                 }
             },
@@ -1506,72 +1569,38 @@
                 }
             },
             {
-                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::team-website-membership-for-SaltyAom",
+                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::team-kaogeek-dev-membership-for-beam41",
                 "custom": true,
-                "id": "6288340:SaltyAom",
+                "id": "7935785:beam41",
                 "type": "github:index/teamMembership:TeamMembership",
                 "inputs": {
                     "__defaults": [
                         "role"
                     ],
                     "role": "member",
-                    "teamId": "6288340",
-                    "username": "SaltyAom"
+                    "teamId": "7935785",
+                    "username": "beam41"
                 },
                 "outputs": {
-                    "etag": "W/\"7a8c47ac53a4c877a20aa39a3254749cde73691a877f3b831e110f390e0691c4\"",
-                    "id": "6288340:SaltyAom",
+                    "etag": "W/\"5db2bbc933d40f0a7ba6ffa1a951e06d6f62f2822e12b199f78c64bcdcaf74a2\"",
+                    "id": "7935785:beam41",
                     "role": "member",
-                    "teamId": "6288340",
-                    "username": "SaltyAom"
+                    "teamId": "7935785",
+                    "username": "beam41"
                 },
                 "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
                 "dependencies": [
-                    "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-website"
+                    "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-kaogeek-dev"
                 ],
                 "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
                 "propertyDependencies": {
                     "teamId": [
-                        "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-website"
+                        "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-kaogeek-dev"
                     ],
                     "username": null
                 },
-                "created": "2023-05-30T10:08:53.124322553Z",
-                "modified": "2023-05-30T10:08:53.124322553Z"
-            },
-            {
-                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::team-website-membership-for-wit03",
-                "custom": true,
-                "id": "6288340:wit03",
-                "type": "github:index/teamMembership:TeamMembership",
-                "inputs": {
-                    "__defaults": [
-                        "role"
-                    ],
-                    "role": "member",
-                    "teamId": "6288340",
-                    "username": "wit03"
-                },
-                "outputs": {
-                    "etag": "W/\"9d1eb5c081e4cdbbdde257ff52e4f7e851c6a1a47289df5db3524f66fcf46b78\"",
-                    "id": "6288340:wit03",
-                    "role": "member",
-                    "teamId": "6288340",
-                    "username": "wit03"
-                },
-                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
-                "dependencies": [
-                    "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-website"
-                ],
-                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
-                "propertyDependencies": {
-                    "teamId": [
-                        "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-website"
-                    ],
-                    "username": null
-                },
-                "created": "2023-05-30T06:11:24.60555068Z",
-                "modified": "2023-05-30T06:11:24.60555068Z"
+                "created": "2023-05-22T10:52:58.101722288Z",
+                "modified": "2023-05-22T10:52:58.101722288Z"
             },
             {
                 "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamRepository:TeamRepository::team-website-repo-creatorsgarten.org",
@@ -1670,133 +1699,6 @@
                 "modified": "2023-04-27T17:41:26.695388687Z"
             },
             {
-                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::team-organizers-membership-for-narze",
-                "custom": true,
-                "id": "6552390:narze",
-                "type": "github:index/teamMembership:TeamMembership",
-                "inputs": {
-                    "__defaults": [
-                        "role"
-                    ],
-                    "role": "member",
-                    "teamId": "6552390",
-                    "username": "narze"
-                },
-                "outputs": {
-                    "etag": "W/\"d191a9ad88376c9b545060a149ab6981a6dcae2b2de078c7f0889a11a41be5aa\"",
-                    "id": "6552390:narze",
-                    "role": "member",
-                    "teamId": "6552390",
-                    "username": "narze"
-                },
-                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
-                "dependencies": [
-                    "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-organizers"
-                ],
-                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
-                "propertyDependencies": {
-                    "teamId": [
-                        "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-organizers"
-                    ],
-                    "username": null
-                }
-            },
-            {
-                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::team-organizers-membership-for-SaltyAom",
-                "custom": true,
-                "id": "6552390:SaltyAom",
-                "type": "github:index/teamMembership:TeamMembership",
-                "inputs": {
-                    "__defaults": [
-                        "role"
-                    ],
-                    "role": "member",
-                    "teamId": "6552390",
-                    "username": "SaltyAom"
-                },
-                "outputs": {
-                    "etag": "W/\"20ef3c309567d5a3f08b5a0b6028a7bc24683885d658dba27c0bcc72dd51d31d\"",
-                    "id": "6552390:SaltyAom",
-                    "role": "member",
-                    "teamId": "6552390",
-                    "username": "SaltyAom"
-                },
-                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
-                "dependencies": [
-                    "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-organizers"
-                ],
-                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
-                "propertyDependencies": {
-                    "teamId": [
-                        "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-organizers"
-                    ],
-                    "username": null
-                }
-            },
-            {
-                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamRepository:TeamRepository::team-organizers-repo-discussions",
-                "custom": true,
-                "id": "6552390:discussions",
-                "type": "github:index/teamRepository:TeamRepository",
-                "inputs": {
-                    "__defaults": [],
-                    "permission": "push",
-                    "repository": "discussions",
-                    "teamId": "6552390"
-                },
-                "outputs": {
-                    "etag": "W/\"33cc890ee28c89cc3bde952f0230ae76346f6e0dc7fc353905de3860e4c78f87\"",
-                    "id": "6552390:discussions",
-                    "permission": "push",
-                    "repository": "discussions",
-                    "teamId": "6552390"
-                },
-                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
-                "dependencies": [
-                    "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-organizers"
-                ],
-                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
-                "propertyDependencies": {
-                    "permission": null,
-                    "repository": null,
-                    "teamId": [
-                        "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-organizers"
-                    ]
-                }
-            },
-            {
-                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::team-organizers-membership-for-betich",
-                "custom": true,
-                "id": "6552390:betich",
-                "type": "github:index/teamMembership:TeamMembership",
-                "inputs": {
-                    "__defaults": [
-                        "role"
-                    ],
-                    "role": "member",
-                    "teamId": "6552390",
-                    "username": "betich"
-                },
-                "outputs": {
-                    "etag": "W/\"c90befd750dbeb413edc2a6ec733914db3356e9e519e5c7509253d4c904fe556\"",
-                    "id": "6552390:betich",
-                    "role": "member",
-                    "teamId": "6552390",
-                    "username": "betich"
-                },
-                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
-                "dependencies": [
-                    "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-organizers"
-                ],
-                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
-                "propertyDependencies": {
-                    "teamId": [
-                        "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-organizers"
-                    ],
-                    "username": null
-                }
-            },
-            {
                 "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::team-hacktoberfestmuseum-membership-for-runyasak",
                 "custom": true,
                 "id": "6846494:runyasak",
@@ -1829,557 +1731,103 @@
                 }
             },
             {
-                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::team-hacktoberfestmuseum-membership-for-siravijbb",
+                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::team-website-membership-for-SaltyAom",
                 "custom": true,
-                "id": "6846494:siravijbb",
+                "id": "6288340:SaltyAom",
                 "type": "github:index/teamMembership:TeamMembership",
                 "inputs": {
                     "__defaults": [
                         "role"
                     ],
                     "role": "member",
-                    "teamId": "6846494",
-                    "username": "siravijbb"
-                },
-                "outputs": {
-                    "etag": "W/\"394df540e82c1276c0b2e9cdd12127695e33dc4fcdbeefc5488d7c4e1c1488df\"",
-                    "id": "6846494:siravijbb",
-                    "role": "member",
-                    "teamId": "6846494",
-                    "username": "siravijbb"
-                },
-                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
-                "dependencies": [
-                    "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-hacktoberfestmuseum"
-                ],
-                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
-                "propertyDependencies": {
-                    "teamId": [
-                        "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-hacktoberfestmuseum"
-                    ],
-                    "username": null
-                }
-            },
-            {
-                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::team-hacktoberfestmuseum-membership-for-tinarskii",
-                "custom": true,
-                "id": "6846494:tinarskii",
-                "type": "github:index/teamMembership:TeamMembership",
-                "inputs": {
-                    "__defaults": [
-                        "role"
-                    ],
-                    "role": "member",
-                    "teamId": "6846494",
-                    "username": "tinarskii"
-                },
-                "outputs": {
-                    "etag": "W/\"b42b62437645257e937d000f81ddf5faa1ca4ba692ed8943caec87af9e8bea3c\"",
-                    "id": "6846494:tinarskii",
-                    "role": "member",
-                    "teamId": "6846494",
-                    "username": "tinarskii"
-                },
-                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
-                "dependencies": [
-                    "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-hacktoberfestmuseum"
-                ],
-                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
-                "propertyDependencies": {
-                    "teamId": [
-                        "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-hacktoberfestmuseum"
-                    ],
-                    "username": null
-                }
-            },
-            {
-                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamRepository:TeamRepository::team-hacktoberfestmuseum-repo-hacktoberfest-museum",
-                "custom": true,
-                "id": "6846494:hacktoberfest-museum",
-                "type": "github:index/teamRepository:TeamRepository",
-                "inputs": {
-                    "__defaults": [],
-                    "permission": "push",
-                    "repository": "hacktoberfest-museum",
-                    "teamId": "6846494"
-                },
-                "outputs": {
-                    "etag": "W/\"35332031cfa9a0d531b80442e04a604422fc0ce759ef0419b4143bf2810e17e4\"",
-                    "id": "6846494:hacktoberfest-museum",
-                    "permission": "push",
-                    "repository": "hacktoberfest-museum",
-                    "teamId": "6846494"
-                },
-                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
-                "dependencies": [
-                    "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-hacktoberfestmuseum"
-                ],
-                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
-                "propertyDependencies": {
-                    "permission": null,
-                    "repository": null,
-                    "teamId": [
-                        "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-hacktoberfestmuseum"
-                    ]
-                }
-            },
-            {
-                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::team-hacktoberfestmuseum-membership-for-Gusb3ll",
-                "custom": true,
-                "id": "6846494:Gusb3ll",
-                "type": "github:index/teamMembership:TeamMembership",
-                "inputs": {
-                    "__defaults": [
-                        "role"
-                    ],
-                    "role": "member",
-                    "teamId": "6846494",
-                    "username": "Gusb3ll"
-                },
-                "outputs": {
-                    "etag": "W/\"f7559fa0104af0e022ca4fbf24abd826ff9a34548595aa19590dff633df7feac\"",
-                    "id": "6846494:Gusb3ll",
-                    "role": "member",
-                    "teamId": "6846494",
-                    "username": "Gusb3ll"
-                },
-                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
-                "dependencies": [
-                    "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-hacktoberfestmuseum"
-                ],
-                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
-                "propertyDependencies": {
-                    "teamId": [
-                        "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-hacktoberfestmuseum"
-                    ],
-                    "username": null
-                }
-            },
-            {
-                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::team-hacktoberfestmuseum-membership-for-Leomotors",
-                "custom": true,
-                "id": "6846494:Leomotors",
-                "type": "github:index/teamMembership:TeamMembership",
-                "inputs": {
-                    "__defaults": [
-                        "role"
-                    ],
-                    "role": "member",
-                    "teamId": "6846494",
-                    "username": "Leomotors"
-                },
-                "outputs": {
-                    "etag": "W/\"4e2694db86c96dc539a22a85e1c478cadb9044d7da06e67a1dde9804f69bad88\"",
-                    "id": "6846494:Leomotors",
-                    "role": "member",
-                    "teamId": "6846494",
-                    "username": "Leomotors"
-                },
-                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
-                "dependencies": [
-                    "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-hacktoberfestmuseum"
-                ],
-                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
-                "propertyDependencies": {
-                    "teamId": [
-                        "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-hacktoberfestmuseum"
-                    ],
-                    "username": null
-                }
-            },
-            {
-                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::team-hacktoberfestmuseum-membership-for-ryanrw",
-                "custom": true,
-                "id": "6846494:ryanrw",
-                "type": "github:index/teamMembership:TeamMembership",
-                "inputs": {
-                    "__defaults": [
-                        "role"
-                    ],
-                    "role": "member",
-                    "teamId": "6846494",
-                    "username": "ryanrw"
-                },
-                "outputs": {
-                    "etag": "W/\"50a11eedd0bdaee0aea14b9f20ffeda48c1a33c1a49263fe9973bc1fd8be4eb1\"",
-                    "id": "6846494:ryanrw",
-                    "role": "member",
-                    "teamId": "6846494",
-                    "username": "ryanrw"
-                },
-                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
-                "dependencies": [
-                    "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-hacktoberfestmuseum"
-                ],
-                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
-                "propertyDependencies": {
-                    "teamId": [
-                        "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-hacktoberfestmuseum"
-                    ],
-                    "username": null
-                }
-            },
-            {
-                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::team-vod-membership-for-wiput1999",
-                "custom": true,
-                "id": "6884937:wiput1999",
-                "type": "github:index/teamMembership:TeamMembership",
-                "inputs": {
-                    "__defaults": [
-                        "role"
-                    ],
-                    "role": "member",
-                    "teamId": "6884937",
-                    "username": "wiput1999"
-                },
-                "outputs": {
-                    "etag": "W/\"25624e64c9e0e02343a99aa937da048192e439fae45b0509c2b3ca1652fd014c\"",
-                    "id": "6884937:wiput1999",
-                    "role": "member",
-                    "teamId": "6884937",
-                    "username": "wiput1999"
-                },
-                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
-                "dependencies": [
-                    "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-vod"
-                ],
-                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
-                "propertyDependencies": {
-                    "teamId": [
-                        "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-vod"
-                    ],
-                    "username": null
-                }
-            },
-            {
-                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamRepository:TeamRepository::team-vod-repo-videos",
-                "custom": true,
-                "id": "6884937:videos",
-                "type": "github:index/teamRepository:TeamRepository",
-                "inputs": {
-                    "__defaults": [],
-                    "permission": "push",
-                    "repository": "videos",
-                    "teamId": "6884937"
-                },
-                "outputs": {
-                    "etag": "W/\"6433d0fe73b90ab603384438884a83b605fb5e5feba5977d9b6f25ca5a09307d\"",
-                    "id": "6884937:videos",
-                    "permission": "push",
-                    "repository": "videos",
-                    "teamId": "6884937"
-                },
-                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
-                "dependencies": [
-                    "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-vod"
-                ],
-                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
-                "propertyDependencies": {
-                    "permission": null,
-                    "repository": null,
-                    "teamId": [
-                        "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-vod"
-                    ]
-                }
-            },
-            {
-                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::team-kaogeek-membership-for-SaltyAom",
-                "custom": true,
-                "id": "7914340:SaltyAom",
-                "type": "github:index/teamMembership:TeamMembership",
-                "inputs": {
-                    "__defaults": [
-                        "role"
-                    ],
-                    "role": "member",
-                    "teamId": "7914340",
+                    "teamId": "6288340",
                     "username": "SaltyAom"
                 },
                 "outputs": {
-                    "etag": "W/\"00767c3207edbd28e9a3a3e8f86bcc6fde642370811ef34383677f8ce3caaadf\"",
-                    "id": "7914340:SaltyAom",
+                    "etag": "W/\"7a8c47ac53a4c877a20aa39a3254749cde73691a877f3b831e110f390e0691c4\"",
+                    "id": "6288340:SaltyAom",
                     "role": "member",
-                    "teamId": "7914340",
+                    "teamId": "6288340",
                     "username": "SaltyAom"
                 },
                 "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
                 "dependencies": [
-                    "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-kaogeek"
+                    "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-website"
                 ],
                 "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
                 "propertyDependencies": {
                     "teamId": [
-                        "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-kaogeek"
+                        "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-website"
                     ],
                     "username": null
                 },
-                "created": "2023-05-16T16:49:46.711919065Z",
-                "modified": "2023-05-16T16:49:46.711919065Z"
+                "created": "2023-05-30T10:08:53.124322553Z",
+                "modified": "2023-05-30T10:08:53.124322553Z"
             },
             {
-                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::team-kaogeek-membership-for-ST4RCHASER",
+                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::team-website-membership-for-wit03",
                 "custom": true,
-                "id": "7914340:ST4RCHASER",
+                "id": "6288340:wit03",
                 "type": "github:index/teamMembership:TeamMembership",
                 "inputs": {
                     "__defaults": [
                         "role"
                     ],
                     "role": "member",
-                    "teamId": "7914340",
-                    "username": "ST4RCHASER"
+                    "teamId": "6288340",
+                    "username": "wit03"
                 },
                 "outputs": {
-                    "etag": "W/\"95d83d8518f8b634b94224a05665a949926930780799344b327c9cfcad27fffe\"",
-                    "id": "7914340:ST4RCHASER",
+                    "etag": "W/\"9d1eb5c081e4cdbbdde257ff52e4f7e851c6a1a47289df5db3524f66fcf46b78\"",
+                    "id": "6288340:wit03",
                     "role": "member",
-                    "teamId": "7914340",
-                    "username": "ST4RCHASER"
+                    "teamId": "6288340",
+                    "username": "wit03"
                 },
                 "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
                 "dependencies": [
-                    "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-kaogeek"
+                    "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-website"
                 ],
                 "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
                 "propertyDependencies": {
                     "teamId": [
-                        "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-kaogeek"
+                        "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-website"
                     ],
                     "username": null
                 },
-                "created": "2023-05-18T14:17:42.876643907Z",
-                "modified": "2023-05-18T14:17:42.876643907Z"
+                "created": "2023-05-30T06:11:24.60555068Z",
+                "modified": "2023-05-30T06:11:24.60555068Z"
             },
             {
-                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::team-kaogeek-membership-for-wiput1999",
+                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamRepository:TeamRepository::team-organizers-repo-discussions",
                 "custom": true,
-                "id": "7914340:wiput1999",
-                "type": "github:index/teamMembership:TeamMembership",
-                "inputs": {
-                    "__defaults": [
-                        "role"
-                    ],
-                    "role": "member",
-                    "teamId": "7914340",
-                    "username": "wiput1999"
-                },
-                "outputs": {
-                    "etag": "W/\"aac97886f24b191557ef8f7c0071565022f62c3ed23776afc53575ec65e7cdfa\"",
-                    "id": "7914340:wiput1999",
-                    "role": "member",
-                    "teamId": "7914340",
-                    "username": "wiput1999"
-                },
-                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
-                "dependencies": [
-                    "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-kaogeek"
-                ],
-                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
-                "propertyDependencies": {
-                    "teamId": [
-                        "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-kaogeek"
-                    ],
-                    "username": null
-                }
-            },
-            {
-                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamRepository:TeamRepository::team-kaogeek-repo-kaogeek-discord-bot",
-                "custom": true,
-                "id": "7914340:kaogeek-discord-bot",
+                "id": "6552390:discussions",
                 "type": "github:index/teamRepository:TeamRepository",
                 "inputs": {
                     "__defaults": [],
-                    "permission": "admin",
-                    "repository": "kaogeek-discord-bot",
-                    "teamId": "7914340"
+                    "permission": "push",
+                    "repository": "discussions",
+                    "teamId": "6552390"
                 },
                 "outputs": {
-                    "etag": "W/\"1cd5bf1f6ac959a8eac319390d942058886a168b8e582f1946dd7686f80f7a99\"",
-                    "id": "7914340:kaogeek-discord-bot",
-                    "permission": "admin",
-                    "repository": "kaogeek-discord-bot",
-                    "teamId": "7914340"
+                    "etag": "W/\"33cc890ee28c89cc3bde952f0230ae76346f6e0dc7fc353905de3860e4c78f87\"",
+                    "id": "6552390:discussions",
+                    "permission": "push",
+                    "repository": "discussions",
+                    "teamId": "6552390"
                 },
                 "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
                 "dependencies": [
-                    "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-kaogeek"
+                    "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-organizers"
                 ],
                 "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
                 "propertyDependencies": {
                     "permission": null,
                     "repository": null,
                     "teamId": [
-                        "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-kaogeek"
+                        "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-organizers"
                     ]
-                },
-                "created": "2023-05-16T16:27:56.102625709Z",
-                "modified": "2023-05-16T16:27:56.102625709Z"
-            },
-            {
-                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::team-kaogeek-membership-for-Gusb3ll",
-                "custom": true,
-                "id": "7914340:Gusb3ll",
-                "type": "github:index/teamMembership:TeamMembership",
-                "inputs": {
-                    "__defaults": [
-                        "role"
-                    ],
-                    "role": "member",
-                    "teamId": "7914340",
-                    "username": "Gusb3ll"
-                },
-                "outputs": {
-                    "etag": "W/\"3d08a62ef8e27f6fc6e3b13bbfd315dae2bfadef001444bfc733736a1e1f16ac\"",
-                    "id": "7914340:Gusb3ll",
-                    "role": "member",
-                    "teamId": "7914340",
-                    "username": "Gusb3ll"
-                },
-                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
-                "dependencies": [
-                    "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-kaogeek"
-                ],
-                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
-                "propertyDependencies": {
-                    "teamId": [
-                        "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-kaogeek"
-                    ],
-                    "username": null
-                },
-                "created": "2023-05-16T16:49:46.838296635Z",
-                "modified": "2023-05-16T16:49:46.838296635Z"
-            },
-            {
-                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::team-kaogeek-membership-for-LagSeeN",
-                "custom": true,
-                "id": "7914340:LagSeeN",
-                "type": "github:index/teamMembership:TeamMembership",
-                "inputs": {
-                    "__defaults": [
-                        "role"
-                    ],
-                    "role": "member",
-                    "teamId": "7914340",
-                    "username": "LagSeeN"
-                },
-                "outputs": {
-                    "etag": "W/\"d810b12bacd349f2d491de05d778819c8baf64d628ebebd2482da62e40af7941\"",
-                    "id": "7914340:LagSeeN",
-                    "role": "member",
-                    "teamId": "7914340",
-                    "username": "LagSeeN"
-                },
-                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
-                "dependencies": [
-                    "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-kaogeek"
-                ],
-                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
-                "propertyDependencies": {
-                    "teamId": [
-                        "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-kaogeek"
-                    ],
-                    "username": null
-                },
-                "created": "2023-05-21T08:52:30.494591771Z",
-                "modified": "2023-05-21T08:52:30.494591771Z"
-            },
-            {
-                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::team-kaogeek-membership-for-Leomotors",
-                "custom": true,
-                "id": "7914340:Leomotors",
-                "type": "github:index/teamMembership:TeamMembership",
-                "inputs": {
-                    "__defaults": [
-                        "role"
-                    ],
-                    "role": "member",
-                    "teamId": "7914340",
-                    "username": "Leomotors"
-                },
-                "outputs": {
-                    "etag": "W/\"cbf91aa9e6daa74e40919f7812f9864f063114b4312c269b1d5452abd8e09f7e\"",
-                    "id": "7914340:Leomotors",
-                    "role": "member",
-                    "teamId": "7914340",
-                    "username": "Leomotors"
-                },
-                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
-                "dependencies": [
-                    "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-kaogeek"
-                ],
-                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
-                "propertyDependencies": {
-                    "teamId": [
-                        "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-kaogeek"
-                    ],
-                    "username": null
                 }
-            },
-            {
-                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::team-kaogeek-membership-for-masuru-aomsin",
-                "custom": true,
-                "id": "7914340:masuru-aomsin",
-                "type": "github:index/teamMembership:TeamMembership",
-                "inputs": {
-                    "__defaults": [
-                        "role"
-                    ],
-                    "role": "member",
-                    "teamId": "7914340",
-                    "username": "masuru-aomsin"
-                },
-                "outputs": {
-                    "etag": "W/\"a0df52ecccf0f38b3023ddf19419248c6913db892c10a0e6e8164d3e1cc4779c\"",
-                    "id": "7914340:masuru-aomsin",
-                    "role": "member",
-                    "teamId": "7914340",
-                    "username": "masuru-aomsin"
-                },
-                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
-                "dependencies": [
-                    "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-kaogeek"
-                ],
-                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
-                "propertyDependencies": {
-                    "teamId": [
-                        "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-kaogeek"
-                    ],
-                    "username": null
-                }
-            },
-            {
-                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::team-kaogeek-membership-for-narze",
-                "custom": true,
-                "id": "7914340:narze",
-                "type": "github:index/teamMembership:TeamMembership",
-                "inputs": {
-                    "__defaults": [
-                        "role"
-                    ],
-                    "role": "member",
-                    "teamId": "7914340",
-                    "username": "narze"
-                },
-                "outputs": {
-                    "etag": "W/\"e2fd274c34305052fa0237fd6673f3fbd2bcb30785af052f7d77bd8513f4aeaa\"",
-                    "id": "7914340:narze",
-                    "role": "member",
-                    "teamId": "7914340",
-                    "username": "narze"
-                },
-                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
-                "dependencies": [
-                    "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-kaogeek"
-                ],
-                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
-                "propertyDependencies": {
-                    "teamId": [
-                        "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-kaogeek"
-                    ],
-                    "username": null
-                },
-                "created": "2023-05-20T16:55:47.22874149Z",
-                "modified": "2023-05-20T16:55:47.22874149Z"
             },
             {
                 "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::team-kaogeek-membership-for-opecgame",
@@ -2450,38 +1898,428 @@
                 "modified": "2023-05-20T16:05:29.308631916Z"
             },
             {
-                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::team-kaogeek-dev-membership-for-beam41",
+                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::team-hacktoberfestmuseum-membership-for-tinarskii",
                 "custom": true,
-                "id": "7935785:beam41",
+                "id": "6846494:tinarskii",
                 "type": "github:index/teamMembership:TeamMembership",
                 "inputs": {
                     "__defaults": [
                         "role"
                     ],
                     "role": "member",
-                    "teamId": "7935785",
-                    "username": "beam41"
+                    "teamId": "6846494",
+                    "username": "tinarskii"
                 },
                 "outputs": {
-                    "etag": "W/\"5db2bbc933d40f0a7ba6ffa1a951e06d6f62f2822e12b199f78c64bcdcaf74a2\"",
-                    "id": "7935785:beam41",
+                    "etag": "W/\"b42b62437645257e937d000f81ddf5faa1ca4ba692ed8943caec87af9e8bea3c\"",
+                    "id": "6846494:tinarskii",
                     "role": "member",
-                    "teamId": "7935785",
-                    "username": "beam41"
+                    "teamId": "6846494",
+                    "username": "tinarskii"
                 },
                 "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
                 "dependencies": [
-                    "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-kaogeek-dev"
+                    "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-hacktoberfestmuseum"
                 ],
                 "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
                 "propertyDependencies": {
                     "teamId": [
-                        "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-kaogeek-dev"
+                        "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-hacktoberfestmuseum"
+                    ],
+                    "username": null
+                }
+            },
+            {
+                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::team-organizers-membership-for-SaltyAom",
+                "custom": true,
+                "id": "6552390:SaltyAom",
+                "type": "github:index/teamMembership:TeamMembership",
+                "inputs": {
+                    "__defaults": [
+                        "role"
+                    ],
+                    "role": "member",
+                    "teamId": "6552390",
+                    "username": "SaltyAom"
+                },
+                "outputs": {
+                    "etag": "W/\"20ef3c309567d5a3f08b5a0b6028a7bc24683885d658dba27c0bcc72dd51d31d\"",
+                    "id": "6552390:SaltyAom",
+                    "role": "member",
+                    "teamId": "6552390",
+                    "username": "SaltyAom"
+                },
+                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
+                "dependencies": [
+                    "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-organizers"
+                ],
+                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
+                "propertyDependencies": {
+                    "teamId": [
+                        "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-organizers"
+                    ],
+                    "username": null
+                }
+            },
+            {
+                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::team-hacktoberfestmuseum-membership-for-siravijbb",
+                "custom": true,
+                "id": "6846494:siravijbb",
+                "type": "github:index/teamMembership:TeamMembership",
+                "inputs": {
+                    "__defaults": [
+                        "role"
+                    ],
+                    "role": "member",
+                    "teamId": "6846494",
+                    "username": "siravijbb"
+                },
+                "outputs": {
+                    "etag": "W/\"394df540e82c1276c0b2e9cdd12127695e33dc4fcdbeefc5488d7c4e1c1488df\"",
+                    "id": "6846494:siravijbb",
+                    "role": "member",
+                    "teamId": "6846494",
+                    "username": "siravijbb"
+                },
+                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
+                "dependencies": [
+                    "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-hacktoberfestmuseum"
+                ],
+                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
+                "propertyDependencies": {
+                    "teamId": [
+                        "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-hacktoberfestmuseum"
+                    ],
+                    "username": null
+                }
+            },
+            {
+                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamRepository:TeamRepository::team-kaogeek-repo-kaogeek-discord-bot",
+                "custom": true,
+                "id": "7914340:kaogeek-discord-bot",
+                "type": "github:index/teamRepository:TeamRepository",
+                "inputs": {
+                    "__defaults": [],
+                    "permission": "admin",
+                    "repository": "kaogeek-discord-bot",
+                    "teamId": "7914340"
+                },
+                "outputs": {
+                    "etag": "W/\"1cd5bf1f6ac959a8eac319390d942058886a168b8e582f1946dd7686f80f7a99\"",
+                    "id": "7914340:kaogeek-discord-bot",
+                    "permission": "admin",
+                    "repository": "kaogeek-discord-bot",
+                    "teamId": "7914340"
+                },
+                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
+                "dependencies": [
+                    "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-kaogeek"
+                ],
+                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
+                "propertyDependencies": {
+                    "permission": null,
+                    "repository": null,
+                    "teamId": [
+                        "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-kaogeek"
+                    ]
+                },
+                "created": "2023-05-16T16:27:56.102625709Z",
+                "modified": "2023-05-16T16:27:56.102625709Z"
+            },
+            {
+                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::team-kaogeek-membership-for-SaltyAom",
+                "custom": true,
+                "id": "7914340:SaltyAom",
+                "type": "github:index/teamMembership:TeamMembership",
+                "inputs": {
+                    "__defaults": [
+                        "role"
+                    ],
+                    "role": "member",
+                    "teamId": "7914340",
+                    "username": "SaltyAom"
+                },
+                "outputs": {
+                    "etag": "W/\"00767c3207edbd28e9a3a3e8f86bcc6fde642370811ef34383677f8ce3caaadf\"",
+                    "id": "7914340:SaltyAom",
+                    "role": "member",
+                    "teamId": "7914340",
+                    "username": "SaltyAom"
+                },
+                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
+                "dependencies": [
+                    "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-kaogeek"
+                ],
+                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
+                "propertyDependencies": {
+                    "teamId": [
+                        "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-kaogeek"
                     ],
                     "username": null
                 },
-                "created": "2023-05-22T10:52:58.101722288Z",
-                "modified": "2023-05-22T10:52:58.101722288Z"
+                "created": "2023-05-16T16:49:46.711919065Z",
+                "modified": "2023-05-16T16:49:46.711919065Z"
+            },
+            {
+                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::team-organizers-membership-for-betich",
+                "custom": true,
+                "id": "6552390:betich",
+                "type": "github:index/teamMembership:TeamMembership",
+                "inputs": {
+                    "__defaults": [
+                        "role"
+                    ],
+                    "role": "member",
+                    "teamId": "6552390",
+                    "username": "betich"
+                },
+                "outputs": {
+                    "etag": "W/\"c90befd750dbeb413edc2a6ec733914db3356e9e519e5c7509253d4c904fe556\"",
+                    "id": "6552390:betich",
+                    "role": "member",
+                    "teamId": "6552390",
+                    "username": "betich"
+                },
+                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
+                "dependencies": [
+                    "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-organizers"
+                ],
+                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
+                "propertyDependencies": {
+                    "teamId": [
+                        "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-organizers"
+                    ],
+                    "username": null
+                }
+            },
+            {
+                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamRepository:TeamRepository::team-hacktoberfestmuseum-repo-hacktoberfest-museum",
+                "custom": true,
+                "id": "6846494:hacktoberfest-museum",
+                "type": "github:index/teamRepository:TeamRepository",
+                "inputs": {
+                    "__defaults": [],
+                    "permission": "push",
+                    "repository": "hacktoberfest-museum",
+                    "teamId": "6846494"
+                },
+                "outputs": {
+                    "etag": "W/\"35332031cfa9a0d531b80442e04a604422fc0ce759ef0419b4143bf2810e17e4\"",
+                    "id": "6846494:hacktoberfest-museum",
+                    "permission": "push",
+                    "repository": "hacktoberfest-museum",
+                    "teamId": "6846494"
+                },
+                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
+                "dependencies": [
+                    "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-hacktoberfestmuseum"
+                ],
+                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
+                "propertyDependencies": {
+                    "permission": null,
+                    "repository": null,
+                    "teamId": [
+                        "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-hacktoberfestmuseum"
+                    ]
+                }
+            },
+            {
+                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::team-kaogeek-membership-for-Gusb3ll",
+                "custom": true,
+                "id": "7914340:Gusb3ll",
+                "type": "github:index/teamMembership:TeamMembership",
+                "inputs": {
+                    "__defaults": [
+                        "role"
+                    ],
+                    "role": "member",
+                    "teamId": "7914340",
+                    "username": "Gusb3ll"
+                },
+                "outputs": {
+                    "etag": "W/\"3d08a62ef8e27f6fc6e3b13bbfd315dae2bfadef001444bfc733736a1e1f16ac\"",
+                    "id": "7914340:Gusb3ll",
+                    "role": "member",
+                    "teamId": "7914340",
+                    "username": "Gusb3ll"
+                },
+                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
+                "dependencies": [
+                    "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-kaogeek"
+                ],
+                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
+                "propertyDependencies": {
+                    "teamId": [
+                        "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-kaogeek"
+                    ],
+                    "username": null
+                },
+                "created": "2023-05-16T16:49:46.838296635Z",
+                "modified": "2023-05-16T16:49:46.838296635Z"
+            },
+            {
+                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::team-kaogeek-membership-for-ST4RCHASER",
+                "custom": true,
+                "id": "7914340:ST4RCHASER",
+                "type": "github:index/teamMembership:TeamMembership",
+                "inputs": {
+                    "__defaults": [
+                        "role"
+                    ],
+                    "role": "member",
+                    "teamId": "7914340",
+                    "username": "ST4RCHASER"
+                },
+                "outputs": {
+                    "etag": "W/\"95d83d8518f8b634b94224a05665a949926930780799344b327c9cfcad27fffe\"",
+                    "id": "7914340:ST4RCHASER",
+                    "role": "member",
+                    "teamId": "7914340",
+                    "username": "ST4RCHASER"
+                },
+                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
+                "dependencies": [
+                    "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-kaogeek"
+                ],
+                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
+                "propertyDependencies": {
+                    "teamId": [
+                        "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-kaogeek"
+                    ],
+                    "username": null
+                },
+                "created": "2023-05-18T14:17:42.876643907Z",
+                "modified": "2023-05-18T14:17:42.876643907Z"
+            },
+            {
+                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::team-hacktoberfestmuseum-membership-for-Gusb3ll",
+                "custom": true,
+                "id": "6846494:Gusb3ll",
+                "type": "github:index/teamMembership:TeamMembership",
+                "inputs": {
+                    "__defaults": [
+                        "role"
+                    ],
+                    "role": "member",
+                    "teamId": "6846494",
+                    "username": "Gusb3ll"
+                },
+                "outputs": {
+                    "etag": "W/\"f7559fa0104af0e022ca4fbf24abd826ff9a34548595aa19590dff633df7feac\"",
+                    "id": "6846494:Gusb3ll",
+                    "role": "member",
+                    "teamId": "6846494",
+                    "username": "Gusb3ll"
+                },
+                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
+                "dependencies": [
+                    "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-hacktoberfestmuseum"
+                ],
+                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
+                "propertyDependencies": {
+                    "teamId": [
+                        "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-hacktoberfestmuseum"
+                    ],
+                    "username": null
+                }
+            },
+            {
+                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::team-kaogeek-membership-for-LagSeeN",
+                "custom": true,
+                "id": "7914340:LagSeeN",
+                "type": "github:index/teamMembership:TeamMembership",
+                "inputs": {
+                    "__defaults": [
+                        "role"
+                    ],
+                    "role": "member",
+                    "teamId": "7914340",
+                    "username": "LagSeeN"
+                },
+                "outputs": {
+                    "etag": "W/\"d810b12bacd349f2d491de05d778819c8baf64d628ebebd2482da62e40af7941\"",
+                    "id": "7914340:LagSeeN",
+                    "role": "member",
+                    "teamId": "7914340",
+                    "username": "LagSeeN"
+                },
+                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
+                "dependencies": [
+                    "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-kaogeek"
+                ],
+                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
+                "propertyDependencies": {
+                    "teamId": [
+                        "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-kaogeek"
+                    ],
+                    "username": null
+                },
+                "created": "2023-05-21T08:52:30.494591771Z",
+                "modified": "2023-05-21T08:52:30.494591771Z"
+            },
+            {
+                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::team-kaogeek-membership-for-wiput1999",
+                "custom": true,
+                "id": "7914340:wiput1999",
+                "type": "github:index/teamMembership:TeamMembership",
+                "inputs": {
+                    "__defaults": [
+                        "role"
+                    ],
+                    "role": "member",
+                    "teamId": "7914340",
+                    "username": "wiput1999"
+                },
+                "outputs": {
+                    "etag": "W/\"aac97886f24b191557ef8f7c0071565022f62c3ed23776afc53575ec65e7cdfa\"",
+                    "id": "7914340:wiput1999",
+                    "role": "member",
+                    "teamId": "7914340",
+                    "username": "wiput1999"
+                },
+                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
+                "dependencies": [
+                    "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-kaogeek"
+                ],
+                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
+                "propertyDependencies": {
+                    "teamId": [
+                        "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-kaogeek"
+                    ],
+                    "username": null
+                }
+            },
+            {
+                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::team-kaogeek-membership-for-Leomotors",
+                "custom": true,
+                "id": "7914340:Leomotors",
+                "type": "github:index/teamMembership:TeamMembership",
+                "inputs": {
+                    "__defaults": [
+                        "role"
+                    ],
+                    "role": "member",
+                    "teamId": "7914340",
+                    "username": "Leomotors"
+                },
+                "outputs": {
+                    "etag": "W/\"cbf91aa9e6daa74e40919f7812f9864f063114b4312c269b1d5452abd8e09f7e\"",
+                    "id": "7914340:Leomotors",
+                    "role": "member",
+                    "teamId": "7914340",
+                    "username": "Leomotors"
+                },
+                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
+                "dependencies": [
+                    "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-kaogeek"
+                ],
+                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
+                "propertyDependencies": {
+                    "teamId": [
+                        "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-kaogeek"
+                    ],
+                    "username": null
+                }
             },
             {
                 "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::team-kaogeek-dev-membership-for-buskun",
@@ -2518,6 +2356,167 @@
                 "modified": "2023-05-20T09:52:00.363411511Z"
             },
             {
+                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::team-kaogeek-membership-for-masuru-aomsin",
+                "custom": true,
+                "id": "7914340:masuru-aomsin",
+                "type": "github:index/teamMembership:TeamMembership",
+                "inputs": {
+                    "__defaults": [
+                        "role"
+                    ],
+                    "role": "member",
+                    "teamId": "7914340",
+                    "username": "masuru-aomsin"
+                },
+                "outputs": {
+                    "etag": "W/\"a0df52ecccf0f38b3023ddf19419248c6913db892c10a0e6e8164d3e1cc4779c\"",
+                    "id": "7914340:masuru-aomsin",
+                    "role": "member",
+                    "teamId": "7914340",
+                    "username": "masuru-aomsin"
+                },
+                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
+                "dependencies": [
+                    "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-kaogeek"
+                ],
+                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
+                "propertyDependencies": {
+                    "teamId": [
+                        "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-kaogeek"
+                    ],
+                    "username": null
+                }
+            },
+            {
+                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamRepository:TeamRepository::team-kaogeek-dev-repo-kaogeek-discord-bot",
+                "custom": true,
+                "id": "7935785:kaogeek-discord-bot",
+                "type": "github:index/teamRepository:TeamRepository",
+                "inputs": {
+                    "__defaults": [],
+                    "permission": "push",
+                    "repository": "kaogeek-discord-bot",
+                    "teamId": "7935785"
+                },
+                "outputs": {
+                    "etag": "W/\"8e31c61fb0b976889b94a2883de8101a748cd0a485b0f630fd45ca211465d958\"",
+                    "id": "7935785:kaogeek-discord-bot",
+                    "permission": "push",
+                    "repository": "kaogeek-discord-bot",
+                    "teamId": "7935785"
+                },
+                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
+                "dependencies": [
+                    "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-kaogeek-dev"
+                ],
+                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
+                "propertyDependencies": {
+                    "permission": null,
+                    "repository": null,
+                    "teamId": [
+                        "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-kaogeek-dev"
+                    ]
+                }
+            },
+            {
+                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::team-organizers-membership-for-narze",
+                "custom": true,
+                "id": "6552390:narze",
+                "type": "github:index/teamMembership:TeamMembership",
+                "inputs": {
+                    "__defaults": [
+                        "role"
+                    ],
+                    "role": "member",
+                    "teamId": "6552390",
+                    "username": "narze"
+                },
+                "outputs": {
+                    "etag": "W/\"d191a9ad88376c9b545060a149ab6981a6dcae2b2de078c7f0889a11a41be5aa\"",
+                    "id": "6552390:narze",
+                    "role": "member",
+                    "teamId": "6552390",
+                    "username": "narze"
+                },
+                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
+                "dependencies": [
+                    "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-organizers"
+                ],
+                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
+                "propertyDependencies": {
+                    "teamId": [
+                        "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-organizers"
+                    ],
+                    "username": null
+                }
+            },
+            {
+                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::team-hacktoberfestmuseum-membership-for-Leomotors",
+                "custom": true,
+                "id": "6846494:Leomotors",
+                "type": "github:index/teamMembership:TeamMembership",
+                "inputs": {
+                    "__defaults": [
+                        "role"
+                    ],
+                    "role": "member",
+                    "teamId": "6846494",
+                    "username": "Leomotors"
+                },
+                "outputs": {
+                    "etag": "W/\"4e2694db86c96dc539a22a85e1c478cadb9044d7da06e67a1dde9804f69bad88\"",
+                    "id": "6846494:Leomotors",
+                    "role": "member",
+                    "teamId": "6846494",
+                    "username": "Leomotors"
+                },
+                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
+                "dependencies": [
+                    "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-hacktoberfestmuseum"
+                ],
+                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
+                "propertyDependencies": {
+                    "teamId": [
+                        "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-hacktoberfestmuseum"
+                    ],
+                    "username": null
+                }
+            },
+            {
+                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::team-kaogeek-membership-for-narze",
+                "custom": true,
+                "id": "7914340:narze",
+                "type": "github:index/teamMembership:TeamMembership",
+                "inputs": {
+                    "__defaults": [
+                        "role"
+                    ],
+                    "role": "member",
+                    "teamId": "7914340",
+                    "username": "narze"
+                },
+                "outputs": {
+                    "etag": "W/\"e2fd274c34305052fa0237fd6673f3fbd2bcb30785af052f7d77bd8513f4aeaa\"",
+                    "id": "7914340:narze",
+                    "role": "member",
+                    "teamId": "7914340",
+                    "username": "narze"
+                },
+                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
+                "dependencies": [
+                    "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-kaogeek"
+                ],
+                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
+                "propertyDependencies": {
+                    "teamId": [
+                        "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-kaogeek"
+                    ],
+                    "username": null
+                },
+                "created": "2023-05-20T16:55:47.22874149Z",
+                "modified": "2023-05-20T16:55:47.22874149Z"
+            },
+            {
                 "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::team-kaogeek-dev-membership-for-samithiwat",
                 "custom": true,
                 "id": "7935785:samithiwat",
@@ -2552,91 +2551,36 @@
                 "modified": "2023-05-22T10:52:58.270882826Z"
             },
             {
-                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamRepository:TeamRepository::team-kaogeek-dev-repo-kaogeek-discord-bot",
+                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::team-hacktoberfestmuseum-membership-for-ryanrw",
                 "custom": true,
-                "id": "7935785:kaogeek-discord-bot",
-                "type": "github:index/teamRepository:TeamRepository",
+                "id": "6846494:ryanrw",
+                "type": "github:index/teamMembership:TeamMembership",
                 "inputs": {
-                    "__defaults": [],
-                    "permission": "push",
-                    "repository": "kaogeek-discord-bot",
-                    "teamId": "7935785"
+                    "__defaults": [
+                        "role"
+                    ],
+                    "role": "member",
+                    "teamId": "6846494",
+                    "username": "ryanrw"
                 },
                 "outputs": {
-                    "etag": "W/\"8e31c61fb0b976889b94a2883de8101a748cd0a485b0f630fd45ca211465d958\"",
-                    "id": "7935785:kaogeek-discord-bot",
-                    "permission": "push",
-                    "repository": "kaogeek-discord-bot",
-                    "teamId": "7935785"
+                    "etag": "W/\"50a11eedd0bdaee0aea14b9f20ffeda48c1a33c1a49263fe9973bc1fd8be4eb1\"",
+                    "id": "6846494:ryanrw",
+                    "role": "member",
+                    "teamId": "6846494",
+                    "username": "ryanrw"
                 },
                 "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
                 "dependencies": [
-                    "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-kaogeek-dev"
+                    "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-hacktoberfestmuseum"
                 ],
                 "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
                 "propertyDependencies": {
-                    "permission": null,
-                    "repository": null,
                     "teamId": [
-                        "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-kaogeek-dev"
-                    ]
+                        "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-hacktoberfestmuseum"
+                    ],
+                    "username": null
                 }
-            },
-            {
-                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::membership-for-heypoom",
-                "custom": true,
-                "id": "6011674:heypoom",
-                "type": "github:index/teamMembership:TeamMembership",
-                "inputs": {
-                    "__defaults": [
-                        "role"
-                    ],
-                    "role": "member",
-                    "teamId": "6011674",
-                    "username": "heypoom"
-                },
-                "outputs": {
-                    "etag": "W/\"38afeb304794fcc8b748a4e7098cecf0efa8c5679757c7dd1d2e22e481615a6b\"",
-                    "id": "6011674:heypoom",
-                    "role": "maintainer",
-                    "teamId": "6011674",
-                    "username": "heypoom"
-                },
-                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
-                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
-                "propertyDependencies": {
-                    "teamId": null,
-                    "username": null
-                },
-                "modified": "2023-06-18T23:42:21.42185051Z"
-            },
-            {
-                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::membership-for-pankace",
-                "custom": true,
-                "id": "6011674:pankace",
-                "type": "github:index/teamMembership:TeamMembership",
-                "inputs": {
-                    "__defaults": [
-                        "role"
-                    ],
-                    "role": "member",
-                    "teamId": "6011674",
-                    "username": "pankace"
-                },
-                "outputs": {
-                    "etag": "W/\"e0b2fcd51e495d8eac9b1c7855b204ef90808f63755995d33d331f69d3bdd83e\"",
-                    "id": "6011674:pankace",
-                    "role": "maintainer",
-                    "teamId": "6011674",
-                    "username": "pankace"
-                },
-                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
-                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
-                "propertyDependencies": {
-                    "teamId": null,
-                    "username": null
-                },
-                "modified": "2023-06-18T23:42:35.752811116Z"
             },
             {
                 "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::membership-for-dtinth",
@@ -2652,7 +2596,7 @@
                     "username": "dtinth"
                 },
                 "outputs": {
-                    "etag": "W/\"0a20191889d86a558bd8916e9de3c0579a41f35dcff17d9155af1ee3f3ce582a\"",
+                    "etag": "W/\"1c45986eabc81dbe0ff49e1a4ee0fe1afa8fa134eed957754268f18901b6846a\"",
                     "id": "6011674:dtinth",
                     "role": "maintainer",
                     "teamId": "6011674",
@@ -2664,7 +2608,158 @@
                     "teamId": null,
                     "username": null
                 },
-                "modified": "2023-06-18T23:42:35.898551742Z"
+                "modified": "2023-07-19T11:12:14.029744564Z"
+            },
+            {
+                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::membership-for-heypoom",
+                "custom": true,
+                "id": "6011674:heypoom",
+                "type": "github:index/teamMembership:TeamMembership",
+                "inputs": {
+                    "__defaults": [
+                        "role"
+                    ],
+                    "role": "member",
+                    "teamId": "6011674",
+                    "username": "heypoom"
+                },
+                "outputs": {
+                    "etag": "W/\"e5183c20625e28670b4666b71db48ff527805c7fdd2828c984bf923a13f08d21\"",
+                    "id": "6011674:heypoom",
+                    "role": "maintainer",
+                    "teamId": "6011674",
+                    "username": "heypoom"
+                },
+                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
+                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
+                "propertyDependencies": {
+                    "teamId": null,
+                    "username": null
+                },
+                "modified": "2023-07-19T11:12:32.32301404Z"
+            },
+            {
+                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::membership-for-PhantipK",
+                "custom": true,
+                "id": "6011674:PhantipK",
+                "type": "github:index/teamMembership:TeamMembership",
+                "inputs": {
+                    "__defaults": [
+                        "role"
+                    ],
+                    "role": "member",
+                    "teamId": "6011674",
+                    "username": "PhantipK"
+                },
+                "outputs": {
+                    "etag": "W/\"f178af3e44a2411c89ceed164d5c35645792c482b6c4103c9bf5cd23c9731f8f\"",
+                    "id": "6011674:PhantipK",
+                    "role": "member",
+                    "teamId": "6011674",
+                    "username": "PhantipK"
+                },
+                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
+                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
+                "propertyDependencies": {
+                    "teamId": null,
+                    "username": null
+                },
+                "created": "2023-07-19T11:12:32.432066566Z",
+                "modified": "2023-07-19T11:12:32.432066566Z"
+            },
+            {
+                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::membership-for-pankace",
+                "custom": true,
+                "id": "6011674:pankace",
+                "type": "github:index/teamMembership:TeamMembership",
+                "inputs": {
+                    "__defaults": [
+                        "role"
+                    ],
+                    "role": "member",
+                    "teamId": "6011674",
+                    "username": "pankace"
+                },
+                "outputs": {
+                    "etag": "W/\"2b364f530d1348f707408c4b834833dee3e42224f3ca74822a6671450e314a1f\"",
+                    "id": "6011674:pankace",
+                    "role": "maintainer",
+                    "teamId": "6011674",
+                    "username": "pankace"
+                },
+                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
+                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
+                "propertyDependencies": {
+                    "teamId": null,
+                    "username": null
+                },
+                "modified": "2023-07-19T11:12:32.535558661Z"
+            },
+            {
+                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::team-vod-membership-for-rayriffy",
+                "custom": true,
+                "id": "6884937:rayriffy",
+                "type": "github:index/teamMembership:TeamMembership",
+                "inputs": {
+                    "__defaults": [
+                        "role"
+                    ],
+                    "role": "member",
+                    "teamId": "6884937",
+                    "username": "rayriffy"
+                },
+                "outputs": {
+                    "etag": "W/\"4242f6e1640048473fbf7499852e1f8b86c7de57b6ed4f7a44c02a66e23c186c\"",
+                    "id": "6884937:rayriffy",
+                    "role": "maintainer",
+                    "teamId": "6884937",
+                    "username": "rayriffy"
+                },
+                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
+                "dependencies": [
+                    "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-vod"
+                ],
+                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
+                "propertyDependencies": {
+                    "teamId": [
+                        "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-vod"
+                    ],
+                    "username": null
+                },
+                "modified": "2023-07-19T11:12:32.666460113Z"
+            },
+            {
+                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::team-vod-membership-for-dtinth",
+                "custom": true,
+                "id": "6884937:dtinth",
+                "type": "github:index/teamMembership:TeamMembership",
+                "inputs": {
+                    "__defaults": [
+                        "role"
+                    ],
+                    "role": "member",
+                    "teamId": "6884937",
+                    "username": "dtinth"
+                },
+                "outputs": {
+                    "etag": "W/\"c54db32b7da357983f7204ffc99b7407acf9df999537cc8bb819028d13d5e035\"",
+                    "id": "6884937:dtinth",
+                    "role": "maintainer",
+                    "teamId": "6884937",
+                    "username": "dtinth"
+                },
+                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
+                "dependencies": [
+                    "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-vod"
+                ],
+                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
+                "propertyDependencies": {
+                    "teamId": [
+                        "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-vod"
+                    ],
+                    "username": null
+                },
+                "modified": "2023-07-19T11:12:32.751590602Z"
             },
             {
                 "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::team-website-membership-for-dtinth",
@@ -2680,7 +2775,7 @@
                     "username": "dtinth"
                 },
                 "outputs": {
-                    "etag": "W/\"b8802d3c82632481cd8b778fcb2ce9619df3797d001f7fe52fa2cfd3419192be\"",
+                    "etag": "W/\"38e95f5a5f08b9fc2fa92a42af8d0154862fb010ac1da689f543c0b92b16d070\"",
                     "id": "6288340:dtinth",
                     "role": "maintainer",
                     "teamId": "6288340",
@@ -2697,40 +2792,7 @@
                     ],
                     "username": null
                 },
-                "modified": "2023-06-18T23:42:36.067572332Z"
-            },
-            {
-                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::team-website-membership-for-heypoom",
-                "custom": true,
-                "id": "6288340:heypoom",
-                "type": "github:index/teamMembership:TeamMembership",
-                "inputs": {
-                    "__defaults": [
-                        "role"
-                    ],
-                    "role": "member",
-                    "teamId": "6288340",
-                    "username": "heypoom"
-                },
-                "outputs": {
-                    "etag": "W/\"2b2c006b4d7ad42ec11905347008f566d3fbeb4be328706b8e8a47834083fcd5\"",
-                    "id": "6288340:heypoom",
-                    "role": "maintainer",
-                    "teamId": "6288340",
-                    "username": "heypoom"
-                },
-                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
-                "dependencies": [
-                    "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-website"
-                ],
-                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
-                "propertyDependencies": {
-                    "teamId": [
-                        "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-website"
-                    ],
-                    "username": null
-                },
-                "modified": "2023-06-18T23:42:36.218739096Z"
+                "modified": "2023-07-19T11:12:32.848486059Z"
             },
             {
                 "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::team-website-membership-for-rayriffy",
@@ -2746,7 +2808,7 @@
                     "username": "rayriffy"
                 },
                 "outputs": {
-                    "etag": "W/\"be5aaf28d2305d5ca5f0c4d758657189515a7b8a959567be26972b7a21dc1895\"",
+                    "etag": "W/\"ee964ca7b7bea55789f37cbda310c4f49aa045aec79a2ced8f1144314b537bfe\"",
                     "id": "6288340:rayriffy",
                     "role": "maintainer",
                     "teamId": "6288340",
@@ -2764,7 +2826,40 @@
                     "username": null
                 },
                 "created": "2023-04-27T17:41:26.982268033Z",
-                "modified": "2023-06-18T23:42:36.365736631Z"
+                "modified": "2023-07-19T11:12:32.965903134Z"
+            },
+            {
+                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::team-website-membership-for-heypoom",
+                "custom": true,
+                "id": "6288340:heypoom",
+                "type": "github:index/teamMembership:TeamMembership",
+                "inputs": {
+                    "__defaults": [
+                        "role"
+                    ],
+                    "role": "member",
+                    "teamId": "6288340",
+                    "username": "heypoom"
+                },
+                "outputs": {
+                    "etag": "W/\"57de756ba3c77c66e5846ba6bfd165623f1f40a6df3dcd72657e9fb1f3e2f520\"",
+                    "id": "6288340:heypoom",
+                    "role": "maintainer",
+                    "teamId": "6288340",
+                    "username": "heypoom"
+                },
+                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
+                "dependencies": [
+                    "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-website"
+                ],
+                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
+                "propertyDependencies": {
+                    "teamId": [
+                        "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-website"
+                    ],
+                    "username": null
+                },
+                "modified": "2023-07-19T11:12:33.068485123Z"
             },
             {
                 "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::team-organizers-membership-for-rayriffy",
@@ -2780,7 +2875,7 @@
                     "username": "rayriffy"
                 },
                 "outputs": {
-                    "etag": "W/\"cc19b832838461a0863483477eeb49831ab4a147ec6f1a0fa732ce459f80b76d\"",
+                    "etag": "W/\"f19488e1ef8794dabcf8769825d401da3e71654055107db4d8d8685a71e5d82c\"",
                     "id": "6552390:rayriffy",
                     "role": "maintainer",
                     "teamId": "6552390",
@@ -2797,7 +2892,7 @@
                     ],
                     "username": null
                 },
-                "modified": "2023-06-18T23:42:36.514230276Z"
+                "modified": "2023-07-19T11:12:33.164321173Z"
             },
             {
                 "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::team-organizers-membership-for-chayapatr",
@@ -2813,7 +2908,7 @@
                     "username": "chayapatr"
                 },
                 "outputs": {
-                    "etag": "W/\"8b3eb3d0c59694cd6e75c12a8d7b59b4d9dca6aeda27ca714e95755e24e3d764\"",
+                    "etag": "W/\"c757ea164efe2c62f9a2d035e275d01148014d00cba838fb36d1fcf4a42c2d2d\"",
                     "id": "6552390:chayapatr",
                     "role": "maintainer",
                     "teamId": "6552390",
@@ -2830,7 +2925,7 @@
                     ],
                     "username": null
                 },
-                "modified": "2023-06-18T23:42:36.672495391Z"
+                "modified": "2023-07-19T11:12:33.259775522Z"
             },
             {
                 "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::team-organizers-membership-for-dtinth",
@@ -2846,7 +2941,7 @@
                     "username": "dtinth"
                 },
                 "outputs": {
-                    "etag": "W/\"10a2a3ca9b8460987e50f9a3b5aa09ef284b172df465d576068af2f07db08a5c\"",
+                    "etag": "W/\"b31dc1912bdd4d17f51b25791a70a34154d32a8a4c2d6919ecfe36cd72d1d699\"",
                     "id": "6552390:dtinth",
                     "role": "maintainer",
                     "teamId": "6552390",
@@ -2863,40 +2958,7 @@
                     ],
                     "username": null
                 },
-                "modified": "2023-06-18T23:42:36.829667797Z"
-            },
-            {
-                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::team-organizers-membership-for-heypoom",
-                "custom": true,
-                "id": "6552390:heypoom",
-                "type": "github:index/teamMembership:TeamMembership",
-                "inputs": {
-                    "__defaults": [
-                        "role"
-                    ],
-                    "role": "member",
-                    "teamId": "6552390",
-                    "username": "heypoom"
-                },
-                "outputs": {
-                    "etag": "W/\"196d7b8def11986b521546c0bc67b49aab0ac45ddc35f460009fa86479eaf948\"",
-                    "id": "6552390:heypoom",
-                    "role": "maintainer",
-                    "teamId": "6552390",
-                    "username": "heypoom"
-                },
-                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
-                "dependencies": [
-                    "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-organizers"
-                ],
-                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
-                "propertyDependencies": {
-                    "teamId": [
-                        "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-organizers"
-                    ],
-                    "username": null
-                },
-                "modified": "2023-06-18T23:42:36.987259806Z"
+                "modified": "2023-07-19T11:12:33.354964169Z"
             },
             {
                 "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::team-hacktoberfestmuseum-membership-for-heypoom",
@@ -2912,7 +2974,7 @@
                     "username": "heypoom"
                 },
                 "outputs": {
-                    "etag": "W/\"ac136a0a07b71839089085dbe82d93f314410f243003cb2df14c442848168b4e\"",
+                    "etag": "W/\"10a07b699b00d284d83e350f73340b29c2e6e31d58f24eaf4551f48da794a063\"",
                     "id": "6846494:heypoom",
                     "role": "maintainer",
                     "teamId": "6846494",
@@ -2929,7 +2991,40 @@
                     ],
                     "username": null
                 },
-                "modified": "2023-06-18T23:42:37.128790903Z"
+                "modified": "2023-07-19T11:12:33.447248999Z"
+            },
+            {
+                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::team-organizers-membership-for-heypoom",
+                "custom": true,
+                "id": "6552390:heypoom",
+                "type": "github:index/teamMembership:TeamMembership",
+                "inputs": {
+                    "__defaults": [
+                        "role"
+                    ],
+                    "role": "member",
+                    "teamId": "6552390",
+                    "username": "heypoom"
+                },
+                "outputs": {
+                    "etag": "W/\"2207ddbb8ffadb971c6ed12f5c3551d0d5fe51979ca99441cd9ab7e36f0ebf24\"",
+                    "id": "6552390:heypoom",
+                    "role": "maintainer",
+                    "teamId": "6552390",
+                    "username": "heypoom"
+                },
+                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
+                "dependencies": [
+                    "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-organizers"
+                ],
+                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
+                "propertyDependencies": {
+                    "teamId": [
+                        "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-organizers"
+                    ],
+                    "username": null
+                },
+                "modified": "2023-07-19T11:12:33.564238471Z"
             },
             {
                 "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::team-hacktoberfestmuseum-membership-for-intaniger",
@@ -2945,7 +3040,7 @@
                     "username": "intaniger"
                 },
                 "outputs": {
-                    "etag": "W/\"3ef04536d39ece0f3767a00d8ded813ce938f8b26581895675767707620af44c\"",
+                    "etag": "W/\"a446e508dacdf9d15e8731dbc647db4c24557a2ccdcd7421c5b37343a8ac9386\"",
                     "id": "6846494:intaniger",
                     "role": "maintainer",
                     "teamId": "6846494",
@@ -2962,73 +3057,39 @@
                     ],
                     "username": null
                 },
-                "modified": "2023-06-18T23:42:37.303522708Z"
+                "modified": "2023-07-19T11:12:33.663465541Z"
             },
             {
-                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::team-vod-membership-for-rayriffy",
+                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::team-organizers-membership-for-PhantipK",
                 "custom": true,
-                "id": "6884937:rayriffy",
+                "id": "6552390:PhantipK",
                 "type": "github:index/teamMembership:TeamMembership",
                 "inputs": {
                     "__defaults": [
                         "role"
                     ],
                     "role": "member",
-                    "teamId": "6884937",
-                    "username": "rayriffy"
+                    "teamId": "6552390",
+                    "username": "PhantipK"
                 },
                 "outputs": {
-                    "etag": "W/\"e0dad192ab2d4a5ac9f60a43b7beeee8b00052f1d713ec51cf6c7c8cc1dbb2b8\"",
-                    "id": "6884937:rayriffy",
-                    "role": "maintainer",
-                    "teamId": "6884937",
-                    "username": "rayriffy"
-                },
-                "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
-                "dependencies": [
-                    "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-vod"
-                ],
-                "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
-                "propertyDependencies": {
-                    "teamId": [
-                        "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-vod"
-                    ],
-                    "username": null
-                },
-                "modified": "2023-06-18T23:42:37.449296213Z"
-            },
-            {
-                "urn": "urn:pulumi:gh::creatorsgarten::github:index/teamMembership:TeamMembership::team-vod-membership-for-dtinth",
-                "custom": true,
-                "id": "6884937:dtinth",
-                "type": "github:index/teamMembership:TeamMembership",
-                "inputs": {
-                    "__defaults": [
-                        "role"
-                    ],
+                    "etag": "W/\"011a2089ae765031ddcbafca8e66700d1c0c2275cabd6876db9b598dff2951c5\"",
+                    "id": "6552390:PhantipK",
                     "role": "member",
-                    "teamId": "6884937",
-                    "username": "dtinth"
-                },
-                "outputs": {
-                    "etag": "W/\"03ed3605a8dd6f4ed9a1646abe579e8d56ebf127cadcbf635c1cd3e1c6beb377\"",
-                    "id": "6884937:dtinth",
-                    "role": "maintainer",
-                    "teamId": "6884937",
-                    "username": "dtinth"
+                    "teamId": "6552390",
+                    "username": "PhantipK"
                 },
                 "parent": "urn:pulumi:gh::creatorsgarten::pulumi:pulumi:Stack::creatorsgarten-gh",
                 "dependencies": [
-                    "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-vod"
+                    "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-organizers"
                 ],
                 "provider": "urn:pulumi:gh::creatorsgarten::pulumi:providers:github::default_4_8_1::c8cf4328-bc75-4dda-a780-42b08e6993aa",
                 "propertyDependencies": {
                     "teamId": [
-                        "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-vod"
+                        "urn:pulumi:gh::creatorsgarten::github:index/team:Team::team-organizers"
                     ],
                     "username": null
-                },
-                "modified": "2023-06-18T23:42:37.599376248Z"
+                }
             }
         ]
     }
